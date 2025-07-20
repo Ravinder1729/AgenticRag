@@ -1,0 +1,304 @@
+2025-07-20 13:00:19,746 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash "HTTP/1.1 200 OK"
+2025-07-20 13:00:23,360 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-20 13:00:42,709 - INFO - User: How does this system enhance decision-making for business users?
+2025-07-20 13:00:44,931 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-79' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:00:44,942 - INFO - Agent: I need more information about the system to answer your question.  The provided code only shows a function `floyd_doc_summary_or_vector_report` without any details on what it does or what system it's part of.  To understand how it enhances decision-making, I need the documentation or description of the system this function belongs to.
+
+2025-07-20 13:05:15,138 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash "HTTP/1.1 200 OK"
+2025-07-20 13:05:18,750 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-20 13:05:38,283 - INFO - User: How does the chatbot convert natural language into SQL?
+2025-07-20 13:05:40,373 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:05:42,380 - INFO - Selecting query engine 1: The question asks for a specific piece of information (the conversion process) from the document, which aligns with retrieving specific context..
+2025-07-20 13:05:44,000 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:05:46,321 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-222' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:05:46,322 - INFO - Agent: The chatbot uses Google Generative AI (Gemini) to translate natural language questions into executable SQL queries.  This process is facilitated by the LangChain and LangGraph frameworks, which manage the agentic workflows.
+
+2025-07-20 13:06:27,700 - INFO - User: In what way does the project ensure robustness in query handling?
+2025-07-20 13:06:29,765 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:06:31,819 - INFO - Selecting query engine 1: This question requires retrieving specific information (how robustness is ensured) from the document, which aligns with the description of choice 2..
+2025-07-20 13:06:33,428 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:06:35,694 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-295' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), WorkflowDone(), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:06:35,695 - INFO - Agent: The system incorporates a dedicated step for SQL query validation using a large language model in certain pipelines.  This acts as a built-in safeguard to enhance the robustness and correctness of generated queries by identifying and mitigating common mistakes.
+
+2025-07-20 13:08:30,176 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash "HTTP/1.1 200 OK"
+2025-07-20 13:08:33,815 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-20 13:08:58,391 - INFO - User: What is the purpose of the SQL_agentic_chatbot project?
+2025-07-20 13:09:00,430 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:09:02,434 - INFO - Selecting query engine 1: The question asks for the purpose of a specific project, requiring retrieval of specific context from the mentioned file..
+2025-07-20 13:09:04,049 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:09:06,457 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-435' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), None, CancelledError(''), ...]>>
+2025-07-20 13:09:06,458 - INFO - Agent: The project provides a solution for non-technical users to interact with SQL databases using natural language.  It allows users to retrieve information effortlessly through intuitive chatbot interfaces, facilitating quicker data access and decision-making.  This is achieved by converting natural language into executable SQL queries, executing them against a database, and presenting the results in natural language.
+
+2025-07-20 13:09:28,140 - INFO - User: What are the main features offered by the SQL_agentic_chatbot?
+
+2025-07-20 13:09:30,287 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:09:32,331 - INFO - Selecting query engine 1: The question asks for specific information ('main features') from a specific file. Choice 2 is about retrieving specific context from the file, which is directly relevant to answering the question..
+2025-07-20 13:09:33,977 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:09:36,650 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-506' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), WorkflowDone(), CancelledError(''), ...]>>
+2025-07-20 13:09:36,651 - INFO - Agent: The SQL\_agentic\_chatbot offers natural language to SQL conversion, integrates with Google Generative AI (Gemini), leverages LangChain and LangGraph for workflow management, supports SQLite and PostgreSQL databases, uses Streamlit for chatbot interfaces, includes database setup and population utilities, performs LLM-based SQL query validation, manages multi-step conversations using LangGraph, enforces structured output formats, uses asynchronous processing, and offers tracing, debugging, and monitoring via LangSmith.
+
+2025-07-20 13:10:51,388 - INFO - User: How does this system enhance decision-making for business users?
+2025-07-20 13:10:52,379 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:10:54,436 - INFO - Selecting query engine 0: The question asks for a summary of how the system enhances decision-making, which aligns with the purpose of summarization described in choice 1..
+2025-07-20 13:10:54,443 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:10:56,769 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-573' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:10:56,770 - INFO - Agent: This system allows non-technical users to access and retrieve information from SQL databases using natural language, rather than needing to write SQL queries directly.  This makes data access quicker and easier, leading to faster and more informed decision-making.
+
+2025-07-20 13:11:55,248 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash "HTTP/1.1 200 OK"
+2025-07-20 13:11:58,864 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-20 13:12:08,726 - INFO - User: How does this project help non-technical users interact with databases?
+2025-07-20 13:12:10,778 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:12:11,767 - INFO - Selecting query engine 0: The question asks for a summary of how the project helps non-technical users.  Choice 1 is explicitly about summarization..
+2025-07-20 13:12:11,774 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:12:14,096 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-686' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:12:14,097 - INFO - Agent: This project allows non-technical users to interact with SQL databases using natural language through intuitive chatbot interfaces.  This eliminates the need for direct SQL query writing, making data access and decision-making easier and faster.
+
+2025-07-20 13:12:34,630 - INFO - User: In what way does the project ensure robustness in query handling?
+2025-07-20 13:12:36,638 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:12:38,690 - INFO - Selecting query engine 1: This question requires retrieving specific information (how robustness is ensured) from the document, which aligns with the description of choice 2..
+2025-07-20 13:12:40,337 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:12:42,512 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-750' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:12:42,513 - INFO - Agent: The system incorporates a dedicated step for SQL query validation using a large language model in certain pipelines.  This acts as a built-in safeguard to enhance the robustness and correctness of generated queries by identifying and mitigating common mistakes.
+
+2025-07-20 13:13:08,632 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash "HTTP/1.1 200 OK"
+2025-07-20 13:13:12,300 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-20 13:13:20,410 - INFO - User: In what way does the project ensure robustness in query handling?
+2025-07-20 13:13:22,454 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:13:24,472 - INFO - Selecting query engine 1: This question requires retrieving specific information (how robustness is ensured) from the document, which aligns with the description of choice 2..
+2025-07-20 13:13:26,086 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:13:27,204 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-873' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), None, CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:13:27,204 - INFO - Agent: The system incorporates a dedicated step for SQL query validation using a large language model in certain pipelines.  This acts as a built-in safeguard to improve the reliability and accuracy of generated queries by identifying and mitigating common errors.
+
+2025-07-20 13:17:42,161 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash "HTTP/1.1 200 OK"
+2025-07-20 13:17:45,770 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-20 13:18:29,473 - INFO - User: How does this project help non-technical users interact with databases?
+2025-07-20 13:18:31,521 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:18:33,563 - INFO - Selecting query engine 0: The question asks for a summary of how the project helps non-technical users.  Choice 1 is explicitly about summarization..
+2025-07-20 13:18:33,570 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:18:35,861 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1022' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:18:35,862 - INFO - Agent: This project allows non-technical users to interact with SQL databases using natural language through intuitive chatbot interfaces.  This eliminates the need for direct SQL query writing, making data access and decision-making easier and faster.
+
+2025-07-20 13:19:08,394 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash "HTTP/1.1 200 OK"
+2025-07-20 13:19:11,985 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-20 13:19:27,809 - INFO - User: How does this project help non-technical users interact with databases?
+2025-07-20 13:19:29,865 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:19:31,918 - INFO - Selecting query engine 0: The question asks for a summary of how the project helps non-technical users.  Choice 1 is explicitly about summarization..
+2025-07-20 13:19:31,926 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:19:34,200 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1148' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[None, CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:19:34,201 - INFO - Agent: This project allows non-technical users to interact with SQL databases using natural language through intuitive chatbot interfaces.  This eliminates the need for direct SQL query writing, making data access and decision-making easier and faster.
+
+2025-07-20 13:20:03,329 - INFO - User: How does linkgre.py interact with PostgreSQL?
+2025-07-20 13:20:05,365 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:20:08,732 - ERROR - Error: Error in step 'run_agent_step': 400 Bad Request. {'message': '{\n  "error": {\n    "code": 400,\n    "message": "Please ensure that the number of function response parts is equal to the number of function call parts of the function call turn.",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'status': 'Bad Request'}
+2025-07-20 13:21:18,012 - INFO - User: In what way does the project ensure robustness in query handling?
+2025-07-20 13:21:19,510 - ERROR - Error: Error in step 'run_agent_step': 429 Too Many Requests. {'message': '{\n  "error": {\n    "code": 429,\n    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",\n    "status": "RESOURCE_EXHAUSTED",\n    "details": [\n      {\n        "@type": "type.googleapis.com/google.rpc.QuotaFailure",\n        "violations": [\n          {\n            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",\n            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",\n            "quotaDimensions": {\n              "location": "global",\n              "model": "gemini-1.5-flash"\n            },\n            "quotaValue": "50"\n          }\n        ]\n      },\n      {\n        "@type": "type.googleapis.com/google.rpc.Help",\n        "links": [\n          {\n            "description": "Learn more about Gemini API quotas",\n            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"\n          }\n        ]\n      },\n      {\n        "@type": "type.googleapis.com/google.rpc.RetryInfo",\n        "retryDelay": "40s"\n      }\n    ]\n  }\n}\n', 'status': 'Too Many Requests'}
+2025-07-20 13:21:19,626 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1212' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:21:19,638 - ERROR - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000001767C91A130>
+transport: <_SelectorSocketTransport closing fd=3712>
+Traceback (most recent call last):
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 916, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 922, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 717, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 729, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-07-20 13:21:19,646 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001767C91AC10>
+2025-07-20 13:21:19,646 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001767B8A1100>, 231721.468)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000001767C91A910>
+2025-07-20 13:21:38,250 - INFO - User: How does this project help non-technical users interact with databases?
+2025-07-20 13:21:39,717 - ERROR - Error: Error in step 'run_agent_step': 429 Too Many Requests. {'message': '{\n  "error": {\n    "code": 429,\n    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",\n    "status": "RESOURCE_EXHAUSTED",\n    "details": [\n      {\n        "@type": "type.googleapis.com/google.rpc.QuotaFailure",\n        "violations": [\n          {\n            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",\n            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",\n            "quotaDimensions": {\n              "model": "gemini-1.5-flash",\n              "location": "global"\n            },\n            "quotaValue": "50"\n          }\n        ]\n      },\n      {\n        "@type": "type.googleapis.com/google.rpc.Help",\n        "links": [\n          {\n            "description": "Learn more about Gemini API quotas",\n            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"\n          }\n        ]\n      },\n      {\n        "@type": "type.googleapis.com/google.rpc.RetryInfo",\n        "retryDelay": "20s"\n      }\n    ]\n  }\n}\n', 'status': 'Too Many Requests'}
+2025-07-20 13:21:39,831 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1283' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:21:39,831 - ERROR - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000001767C944AC0>
+transport: <_SelectorSocketTransport closing fd=2148>
+Traceback (most recent call last):
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 916, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 922, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 717, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 729, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-07-20 13:21:39,834 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001767C944490>
+2025-07-20 13:21:39,834 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001767C90BBE0>, 231792.25)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000001767C9444F0>
+2025-07-20 13:21:43,635 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1346' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:21:43,636 - ERROR - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000001767C91AB50>
+transport: <_SelectorSocketTransport closing fd=3696>
+Traceback (most recent call last):
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 916, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 922, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 717, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 729, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-07-20 13:21:43,638 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001767C91A190>
+2025-07-20 13:21:43,638 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001767B8A1520>, 231812.453)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000001767C91A280>
+2025-07-20 13:21:53,571 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash "HTTP/1.1 200 OK"
+2025-07-20 13:21:57,140 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-20 13:22:07,179 - INFO - User: How does this project help non-technical users interact with databases?
+2025-07-20 13:22:08,647 - ERROR - Error: Error in step 'run_agent_step': 429 Too Many Requests. {'message': '{\n  "error": {\n    "code": 429,\n    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",\n    "status": "RESOURCE_EXHAUSTED",\n    "details": [\n      {\n        "@type": "type.googleapis.com/google.rpc.QuotaFailure",\n        "violations": [\n          {\n            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",\n            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",\n            "quotaDimensions": {\n              "location": "global",\n              "model": "gemini-1.5-flash"\n            },\n            "quotaValue": "50"\n          }\n        ]\n      },\n      {\n        "@type": "type.googleapis.com/google.rpc.Help",\n        "links": [\n          {\n            "description": "Learn more about Gemini API quotas",\n            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"\n          }\n        ]\n      },\n      {\n        "@type": "type.googleapis.com/google.rpc.RetryInfo",\n        "retryDelay": "51s"\n      }\n    ]\n  }\n}\n', 'status': 'Too Many Requests'}
+2025-07-20 13:23:52,629 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1454' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:23:52,629 - ERROR - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000001767C8EBF70>
+transport: <_SelectorSocketTransport closing fd=3708>
+Traceback (most recent call last):
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 916, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 922, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 717, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\selector_events.py", line 729, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\base_events.py", line 751, in call_soon
+    self._check_closed()
+  File "C:\Users\ravin\anaconda3\envs\floyd\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-07-20 13:23:52,629 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001767B7DCCD0>
+2025-07-20 13:23:52,629 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001767C90BB80>, 231841.375)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000001767B7DC910>
+2025-07-20 13:24:03,297 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash "HTTP/1.1 200 OK"
+2025-07-20 13:24:07,155 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-20 13:24:23,088 - INFO - User: How does linkgre.py interact with PostgreSQL?
+2025-07-20 13:24:25,289 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:24:27,535 - INFO - Selecting query engine 1: The question asks for specific details on how one file interacts with another. This is a context retrieval task..
+2025-07-20 13:24:29,404 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:24:31,777 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1577' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:24:31,777 - INFO - Agent: The script connects to a PostgreSQL database, loads data from CSV files into the `dress_stocks` and `daily_sales` tables, and sets up a LangChain system to translate natural language queries into SQL, execute them against the database, and return the results.
+
+2025-07-20 13:24:53,319 - INFO - User: What is the purpose of query_check.py?
+2025-07-20 13:24:55,566 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:24:57,763 - INFO - Selecting query engine 1: The question asks for the purpose of a specific file, which requires retrieving specific context from the document..
+2025-07-20 13:24:59,598 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:25:02,027 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1648' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), None, ...]>>
+2025-07-20 13:25:02,028 - INFO - Agent: `query_check.py` demonstrates a multi-step process for generating, validating, and executing SQL queries using Langchain, LangGraph, and Google Generative AI, connecting to an SQLite database.
+
+2025-07-20 13:25:27,542 - INFO - User: How is postconnection.py different from linkcsv.py?
+2025-07-20 13:25:29,645 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:25:31,656 - INFO - Selecting query engine 1: This question requires retrieving specific information (differences between two files) from the mentioned file, which is what choice 2 describes..
+2025-07-20 13:25:32,193 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:25:33,431 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1723' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:25:33,432 - INFO - Agent: `postconnection.py` connects to a PostgreSQL database, imports data from CSV files into pandas DataFrames, and uploads these DataFrames as tables to the database.  `linkcsv.py` loads local CSV files into an SQLite database and uses a LangChain SQL agent with Google's Generative AI to allow natural language querying of the imported data.
+
+2025-07-20 13:31:04,943 - INFO - User: Which script demonstrates English-to-French translation?
+2025-07-20 13:31:06,944 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:31:08,958 - INFO - Selecting query engine 1: The question asks for a specific piece of information (the script demonstrating translation), making context retrieval the more relevant task..
+2025-07-20 13:31:10,646 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:31:11,553 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1818' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:31:11,554 - INFO - Agent: The `app.py` script demonstrates a basic English-to-French translation task using LangChain and a Google Generative AI model.
+
+2025-07-20 13:32:04,842 - INFO - User: Which file handles setting up an SQLite database from CSV files?
+2025-07-20 13:32:05,671 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:32:07,733 - INFO - Selecting query engine 1: This choice focuses on retrieving specific context from the file, which is necessary to answer a question about a specific task (setting up an SQLite database)..
+2025-07-20 13:32:09,385 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:32:10,761 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-1899' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:32:10,762 - INFO - Agent: `link.py`, `linkcsv.py` and `postconnection.py`  handle setting up an SQLite database from CSV files.  `link.py` sets up the database and loads data, while `linkcsv.py` demonstrates loading CSV data into an SQLite database and enabling natural language querying. `postconnection.py` establishes a connection to a PostgreSQL database but also reads CSV files into pandas DataFrames and uploads them as tables.
+
+2025-07-20 13:47:59,624 - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash "HTTP/1.1 200 OK"
+2025-07-20 13:48:03,388 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-20 13:48:22,938 - INFO - User: Which script demonstrates English-to-French translation?
+2025-07-20 13:48:25,229 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:48:27,503 - INFO - Selecting query engine 1: The question asks for a specific piece of information (the script demonstrating translation), making context retrieval the more relevant task..
+2025-07-20 13:48:29,382 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:48:31,701 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-93' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:48:31,702 - INFO - Agent: The `app.py` script demonstrates a basic English-to-French translation task using LangChain and a Google Generative AI model.
+
+2025-07-20 13:48:57,054 - INFO - User: 
+How does this project help non-technical users interact with databases?
+2025-07-20 13:48:59,220 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:49:01,559 - INFO - Selecting query engine 0: The question asks for a summary of how the project helps non-technical users.  Choice 1 is explicitly about summarization..
+2025-07-20 13:49:01,567 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:49:04,107 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-167' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), ...]>>
+2025-07-20 13:49:04,108 - INFO - Agent: This project allows non-technical users to interact with SQL databases using natural language through intuitive chatbot interfaces.  This eliminates the need for direct SQL query writing, making data access and decision-making easier and faster.
+
+2025-07-20 13:49:33,559 - INFO - User: What role does LangGraph play in this system?
+2025-07-20 13:49:34,480 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:49:36,697 - INFO - Selecting query engine 1: This question requires retrieving specific information (the role of LangGraph) from the specified file..
+2025-07-20 13:49:38,542 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-20 13:49:39,783 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-236' coro=<Workflow.run.<locals>._run_workflow() running at C:\Users\ravin\anaconda3\envs\floyd\lib\site-packages\workflows\workflow.py:431> wait_for=<_GatheringFuture finished result=[CancelledError(''), CancelledError(''), CancelledError(''), CancelledError(''), WorkflowDone(), CancelledError(''), ...]>>
+2025-07-20 13:49:39,783 - INFO - Agent: LangGraph is used in several scripts to process natural language questions, translate them into SQL queries, execute them against a database (PostgreSQL or SQLite), and generate human-readable answers from the query results.  It's a key component in the natural language interface to the database.
+
